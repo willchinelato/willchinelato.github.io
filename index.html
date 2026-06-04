@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>William Brombal Chinelato</title>
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Source+Serif+4:wght@400;600;700&display=swap" rel="stylesheet">
@@ -15,26 +16,36 @@
   </head>
   <body>
     <div class="container">
-      <div class="profile-picture d-block d-sm-none mx-auto my-4">
-        <img src="/assets/images/profile/william.jpg">
-      </div>
-      <div class="row d-block d-sm-none text-center">
-        <h1 class="display-4 fw-medium">William Brombal Chinelato</h1>
-        <p class="fs-5 roles">Solution Architect | Systems Architect | Technical Leadership</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed velit a turpis scelerisque consectetur ac quis nisl.</p>
-
-        <div class="hstack fs-3 gap-3 justify-content-center">
-          <a href="https://github.com/willchinelato"><i class="bi bi-github"></i></a>
-          <a href="https://app.notion.com/p/www.linkedin.com/in/willchinelato"><i class="bi bi-linkedin"></i></a>
-          <a href="https://medium.com/@willchinelato/"><i class="bi bi-medium"></i></a>
-          <a href="https://wa.me/5511999393707"><i class="bi bi-whatsapp"></i></a>
-          <a href="mailto:willchinelato@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+      <!-- <PresentationCard:Mobile> -->
+      <div class="d-block d-sm-none">
+        <div class="row justify-content-center my-4">
+          <div class="profile-picture px-0">
+            <img src="/assets/images/profile/william.jpg">
+          </div>
         </div>
 
-        <hr class="my-5">
+        <div class="row text-center">
+          <h1 class="display-4 fw-medium">William Brombal Chinelato</h1>
+          <p class="fs-5 roles">Solution Architect | Systems Architect | Technical Leadership</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed velit a turpis scelerisque consectetur ac quis nisl.</p>
+
+          <div class="hstack fs-3 gap-3 justify-content-center">
+            <a href="https://github.com/willchinelato" class="profile-link"><i class="bi bi-github"></i></a>
+            <a href="https://app.notion.com/p/www.linkedin.com/in/willchinelato" class="profile-link"><i class="bi bi-linkedin"></i></a>
+            <a href="https://medium.com/@willchinelato/" class="profile-link"><i class="bi bi-medium"></i></a>
+            <a href="https://wa.me/5511999393707" class="profile-link"><i class="bi bi-whatsapp"></i></a>
+            <a href="mailto:willchinelato@gmail.com" class="profile-link"><i class="bi bi-envelope-fill"></i></a>
+          </div>
+        </div>
+
+        <div class="row mx-1 mt-5 mb-4">
+          <hr class="border-2">
+        </div>
       </div>
+      <!-- </PresentationCard:Mobile> -->
       
-      <div class="row mt-4">
+      <div class="row">
+        <!-- <PresentationCard:Desktop> -->
         <div class="col-5 d-none d-sm-block">
           <div class="py-5 sticky-top">
             <h1 class="display-4 fw-medium">William Brombal Chinelato</h1>
@@ -46,16 +57,17 @@
             </div>
             
             <div class="hstack fs-3 gap-3">
-              <a href="https://github.com/willchinelato"><i class="bi bi-github"></i></a>
-              <a href="https://app.notion.com/p/www.linkedin.com/in/willchinelato"><i class="bi bi-linkedin"></i></a>
-              <a href="https://medium.com/@willchinelato/"><i class="bi bi-medium"></i></a>
-              <a href="https://wa.me/5511999393707"><i class="bi bi-whatsapp"></i></a>
-              <a href="mailto:willchinelato@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+              <a href="https://github.com/willchinelato" class="profile-link"><i class="bi bi-github"></i></a>
+              <a href="https://app.notion.com/p/www.linkedin.com/in/willchinelato" class="profile-link"><i class="bi bi-linkedin"></i></a>
+              <a href="https://medium.com/@willchinelato/" class="profile-link"><i class="bi bi-medium"></i></a>
+              <a href="https://wa.me/5511999393707" class="profile-link"><i class="bi bi-whatsapp"></i></a>
+              <a href="mailto:willchinelato@gmail.com" class="profile-link"><i class="bi bi-envelope-fill"></i></a>
             </div>
           </div>
         </div>
+        <!-- </PresentationCard:Desktop> -->
 
-        <div class="col-12 col-lg-7 py-5">
+        <div class="col-12 col-lg-7 py-0 py-lg-5">
           <h2>Apresentação</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed velit a turpis scelerisque consectetur ac quis nisl. Nulla facilisi. Pellentesque mattis interdum diam. Aliquam erat volutpat. Sed varius, eros eu porta viverra, eros augue malesuada eros, sit amet aliquam felis lorem eu nulla. Mauris vitae vestibulum erat. Fusce iaculis nulla tellus, non fringilla libero cursus nec. Sed non arcu accumsan, efficitur erat nec, volutpat urna. Suspendisse vel interdum neque. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed maximus odio non neque convallis ornare ac sit amet nisl.</p>
 
@@ -64,7 +76,7 @@
             <div class="col">
               <a href="https://www.credly.com/badges/8520eadb-40c9-48bd-9b52-4dfe8ae68177" target="_blank">
                 <img src="/assets/images/certifications/aws-certified-solutions-architect-associate.png" class="certification-badge"><br>
-                AWS Certified Solutions Architect – Associate
+                AWS Certified Solutions Architect Associate
               </a>
             </div>
             <div class="col">
@@ -90,8 +102,8 @@
               <div class="vr"></div>
             </div>
             <div class="col">
-              <b>Developer Master</b><br>
-              Jan/2022 - Ago/2024
+              <div class="experience-role">Developer Master</div>
+              <div class="experience-duration">jan/2022 - ago/2024</div>
             </div>
           </div>
           <div class="row">
@@ -100,8 +112,8 @@
               <div class="vr"></div>
             </div>
             <div class="col">
-              <b>Systems Architect</b><br>
-              Ago/2018 - Jan/2022
+              <div class="experience-role">Systems Architect</div>
+              <div class="experience-duration">ago/2018 - jan/2022</div>
             </div>
           </div>
           <div class="row">
@@ -110,8 +122,8 @@
               <div class="vr"></div>
             </div>
             <div class="col">
-              <b>Software Architect</b><br>
-              Mar/2016 - Ago/2018
+              <div class="experience-role">Software Architect</div>
+              <div class="experience-duration">mar/2016 - ago/2018</div>
             </div>
           </div>
           <div class="row">
@@ -119,20 +131,23 @@
               <i class="bi bi-circle-fill"></i><br>
             </div>
             <div class="col">
-              <b>Senior Java Developer</b><br>
-              Jul/2014 - Mai/2016
+              <div class="experience-role">Senior Java Developer</div>
+              <div class="experience-duration">jul/2014 - mai/2016</div>
             </div>
           </div>
 
-          <h4>Anteriores</h4>
+          <h4 class="mt-3">Anteriores</h4>
           <div class="row">
             <div class="col-auto text-center">
               <i class="bi bi-circle-fill"></i><br>
               <div class="vr"></div>
             </div>
             <div class="col">
-              <b>Senior Java Developer, Chubb Insurance</b><br>
-              Fev/2013 - Jul/2014
+              <div>
+                <span class="experience-role">Senior Java Developer</span>,
+                <span class="experience-company">Chubb Insurance</span>
+              </div>
+              <div class="experience-duration">fev/2013 - jul/2014</div>
             </div>
           </div>
           <div class="row">
@@ -141,8 +156,11 @@
               <div class="vr"></div>
             </div>
             <div class="col">
-              <b>Research, Development & Architecture, Programarte</b><br>
-              Mar/2010 - Out/2012
+              <div>
+                <span class="experience-role">Research, Development & Architecture</span>,
+                <span class="experience-company">Programarte</span>
+              </div>
+              <div class="experience-duration">mar/2010 - out/2012</div>
             </div>
           </div>
           <div class="row">
@@ -151,8 +169,11 @@
               <div class="vr"></div>
             </div>
             <div class="col">
-              <b>Java Developer, Tornatti Systems S/A</b><br>
-              Nov/2008 - Mar/2010
+              <div>
+                <span class="experience-role">Java Developer</span>,
+                <span class="experience-company">Tornatti Systems S/A</span>
+              </div>
+              <div class="experience-duration">nov/2008 - mar/2010</div>
             </div>
           </div>
           <div class="row">
@@ -160,12 +181,15 @@
               <i class="bi bi-circle-fill"></i><br>
             </div>
             <div class="col">
-              <b>PHP Developer, Proxy Network Comercial Ltda</b><br>
-              Jun/2005 - Out/2008
+              <div>
+                <span class="experience-role">PHP Developer</span>,
+                <span class="experience-company">Proxy Network Comercial Ltda</span>
+              </div>
+              <div class="experience-duration">jun/2005 - out/2008</div>
             </div>
           </div>
 
-          <h2>Projetos</h2>
+          <h2 class="mt-3">Projetos</h2>
 
           <h4>Lorem ipsum</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed velit a turpis scelerisque consectetur ac quis nisl. Nulla facilisi. Pellentesque mattis interdum diam. Aliquam erat volutpat. Sed varius, eros eu porta viverra, eros augue malesuada eros, sit amet aliquam felis lorem eu nulla. Mauris vitae vestibulum erat. Fusce iaculis nulla tellus, non fringilla libero cursus nec. Sed non arcu accumsan, efficitur erat nec, volutpat urna. Suspendisse vel interdum neque. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed maximus odio non neque convallis ornare ac sit amet nisl.</p>
@@ -196,13 +220,13 @@
           <h2>Conquistas</h2>
           <div class="row mb-3 text-center">
             <div class="col">
-              <i class="bi bi-heart-fill fs-1"></i><br>
-              <b>Human First</b><br>
+              <i class="bi bi-heart-fill fs-1 lh-sm achievement"></i>
+              <div class="achievement">Human First</div>
               Reconhecimento indicado por uma profissional do time após conversas sobre uma decisão importante de carreira. Segundo ela, a abertura, acolhimento e transparência da conversa foram fundamentais para sua decisão.
             </div>
             <div class="col">
-              <i class="bi bi-trophy-fill fs-1"></i><br>
-              <b>Teamwork</b><br>
+              <i class="bi bi-trophy-fill fs-1 lh-sm achievement"></i>
+              <div class="achievement">Teamwork</div>
               Reconhecimentos recorrentes por colaboração entre equipes, impacto para clientes e construção de um ambiente onde as pessoas tinham orgulho de fazer parte do time.
             </div>
           </div>
@@ -211,29 +235,56 @@
           <h2>Publicações</h2>
           <div class="row mb-3 gx-3">
             <div class="col-auto">
-              <img src="/assets/images/articles/the-difference-between-instant-and-date-time.png" class="articles">
+              <img src="/assets/images/articles/architecture-evaluation.png" class="article">
             </div>
             <div class="col">
-              <a href="https://medium.com/@willchinelato/the-difference-between-instant-and-date-time-52fac96c64ab" target="_blank">The Difference Between Instant and Date/Time</a><br>
-              During a training about the Java date/time API (java.time), I created a story to demonstrate the difference between instant and date/time.
+              <a href="https://medium.com/@willchinelato/architecture-evaluation-b1c7eda3ad2e" target="_blank">Architecture Evaluation</a><br>
+              A guide to objective architecture evaluation through teamwork: define criteria, test candidates, document decisions, and adapt.
             </div>
           </div>
           <div class="row mb-3 gx-3">
             <div class="col-auto">
-              <img src="/assets/images/articles/time-to-reset.png" class="articles">
+              <img src="/assets/images/articles/organize-wisely.png" class="article">
             </div>
             <div class="col">
-              <a href="https://medium.com/@willchinelato/time-to-reset-440353caf01d" target="_blank">Time to Reset</a><br>
-              Quit at my peak. My sabbatical taught me: apathy is temporary, motion is medicine. Now rebuilding - one small step at a time.
+              <a href="https://medium.com/@willchinelato/organize-wisely-4278fa2d9766" target="_blank">Organize Wisely</a><br>
+              Drowning in tasks? Overloading burns you out and strains your team. Master organization, prioritization, and asking for help.
             </div>
           </div>
           <div class="row mb-3 gx-3">
             <div class="col-auto">
-              <img src="/assets/images/articles/1-plus-1-is-never-2.png" class="articles">
+              <img src="/assets/images/articles/delegate-wisely.png" class="article">
+            </div>
+            <div class="col">
+              <a href="https://medium.com/@willchinelato/delegate-wisely-d4aad9d75880" target="_blank">Delegate Wisely</a><br>
+              Leadership brings countless challenges: team management and task delegation rank among the toughest. Master these skills collaboratively to build a high-performing team.
+            </div>
+          </div>
+          <div class="row mb-3 gx-3">
+            <div class="col-auto">
+              <img src="/assets/images/articles/ai-ghibli-and-the-art-of-knowing-your-audience.png" class="article">
+            </div>
+            <div class="col">
+              <a href="https://medium.com/@willchinelato/ai-ghibli-and-the-art-of-knowing-your-audience-a153c891870f" target="_blank">AI, Ghibli, and the Art of Knowing Your Audience</a><br>
+              Miyazaki's AI critique offers a lens for user-centric design, where deep audience understanding defines real satisfaction.
+            </div>
+          </div>
+          <div class="row mb-3 gx-3">
+            <div class="col-auto">
+              <img src="/assets/images/articles/1-plus-1-is-never-2.png" class="article">
             </div>
             <div class="col">
               <a href="https://medium.com/@willchinelato/1-1-is-never-2-931a8e93a05c" target="_blank">1 + 1 Is Never 2</a><br>
               Adding new members to a team is not an easy task. And productivity doesn't magically grows, it takes time and planning.
+            </div>
+          </div>
+          <div class="row mb-3 gx-3">
+            <div class="col-auto">
+              <img src="/assets/images/articles/the-difference-between-instant-and-date-time.png" class="article">
+            </div>
+            <div class="col">
+              <a href="https://medium.com/@willchinelato/the-difference-between-instant-and-date-time-52fac96c64ab" target="_blank">The Difference Between Instant and Date/Time</a><br>
+              During a training about the Java date/time API (java.time), I created a story to demonstrate the difference between instant and date/time.
             </div>
           </div>
 
