@@ -1,0 +1,76 @@
+[data-bs-theme="dark"] {
+  --catppuccin-base: #24273a;
+  --catppuccin-blue: #8aadf4;
+  --catppuccin-flamingo: #f0c6c6;
+  --catppuccin-green: #a6da95;
+  --catppuccin-teal: #8bd5ca;
+  --catppuccin-text: #cad3f5;
+  --catppuccin-yellow: #eed49f;
+
+  --bs-body-bg: var(--catppuccin-base);
+  --bs-body-color: var(--catppuccin-text);
+}
+
+[data-bs-theme="light"] {
+  --catppuccin-base: #eff1f5;
+  --catppuccin-blue: #1e66f5;
+  --catppuccin-flamingo: #dd7878;
+  --catppuccin-green: #40a02b;
+  --catppuccin-teal: #179299;
+  --catppuccin-text: #4c4f69;
+  --catppuccin-yellow: #df8e1d;
+
+  --bs-body-bg: var(--catppuccin-base);
+  --bs-body-color: var(--catppuccin-text);
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1, h2, h4 {
+  font-family: "Source Serif 4", serif;
+}
+
+h1 {
+  color: var(--catppuccin-green);
+}
+
+h2 {
+  color: var(--catppuccin-blue);
+}
+
+h4 {
+  color: var(--catppuccin-flamingo);
+}
+
+b, strong {
+  color: var(--catppuccin-yellow);
+}
+
+.articles {
+  height: 89px;
+  width: 120px;
+}
+
+.certification-badge {
+  height: 100px;
+  width: 100px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  height: 150px;
+  overflow: hidden;
+  width: 150px;
+}
+
+.profile-picture img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.roles {
+  color: var(--catppuccin-teal)
+}

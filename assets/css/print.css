@@ -1,0 +1,21 @@
+.print-only {
+  display: none !important;
+}
+
+@media print {
+
+  body {
+    background: #fff;
+    color: #000;
+    font-family: Georgia, serif;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  .web-only {
+    display: none !important;
+  }
+
+}
