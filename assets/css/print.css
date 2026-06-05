@@ -4,10 +4,28 @@
 
 @media print {
 
+  a,
+  a:hover,
+  b,
+  h1,
+  h2,
+  h4,
+  .roles {
+    color: #000;
+  }
+
   body {
-    background: #fff;
+    background-color: #fff;
     color: #000;
     font-family: Georgia, serif;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  li em {
+    color: #888;
   }
 
   .print-only {
