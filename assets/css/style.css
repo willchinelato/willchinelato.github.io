@@ -49,6 +49,10 @@ h4 {
   color: var(--catppuccin-mauve);
 }
 
+li {
+  margin-bottom: 5px;
+}
+
 .article {
   height: 80px;
   width: 120px; 
