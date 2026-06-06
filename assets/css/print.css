@@ -32,4 +32,8 @@
     display: none !important;
   }
 
+  .tags {
+    color: #000;
+  }
+
 }

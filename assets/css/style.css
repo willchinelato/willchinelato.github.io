@@ -98,3 +98,7 @@ li {
 .roles {
   color: var(--catppuccin-teal)
 }
+
+.tags {
+  color: var(--catppuccin-yellow);
+}
