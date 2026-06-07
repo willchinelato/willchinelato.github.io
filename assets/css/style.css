@@ -111,3 +111,7 @@ li {
 .tags {
   color: var(--catppuccin-yellow);
 }
+
+.tags span:not(:last-child)::after {
+  content: " · ";
+}
