@@ -25,10 +25,23 @@
     background-color: #fff;
     color: #000;
     font-family: Georgia, serif;
+    font-size: 0.8rem;
+  }
+
+  h2 {
+    font-size: 1.45rem;
+  }
+
+  h4 {
+    font-size: 1.05rem;
   }
 
   li em {
     color: #888;
+  }
+
+  .display-4 {
+    font-size: 2.3rem;
   }
 
   .print-only {
@@ -45,6 +58,18 @@
 
   .tags::before {
     content: "— "
+  }
+
+  .tags span:not(:last-child)::after {
+    content: " · ";
+  }
+
+  .tags .badge {
+    background-color: transparent;
+    color: inherit;
+    font-size: inherit;
+    font-weight: normal;
+    padding: 0;
   }
 
 }

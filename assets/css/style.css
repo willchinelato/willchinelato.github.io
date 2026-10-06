@@ -8,6 +8,7 @@
   --catppuccin-overlay-0: #6e738d;
   --catppuccin-pink: #f5bde6;
   --catppuccin-subtext-0: #a5adcb;
+  --catppuccin-surface-0: #363a4f;
   --catppuccin-teal: #8bd5ca;
   --catppuccin-text: #cad3f5;
   --catppuccin-yellow: #eed49f;
@@ -108,10 +109,7 @@ li {
   color: var(--catppuccin-teal)
 }
 
-.tags {
+.tags .badge {
+  background-color: var(--catppuccin-surface-0);
   color: var(--catppuccin-yellow);
-}
-
-.tags span:not(:last-child)::after {
-  content: " · ";
 }
